@@ -19,7 +19,7 @@
 
 ## 下载
 
-仓库内直接提供编译好的单文件版：[dist/Anti-antipaste.exe](dist/Anti-antipaste.exe)（打开后点右上角 **Download raw file**），双击即用，无需安装 Python 或任何依赖。
+仓库内直接提供编译好的单文件版：[Anti-antipaste.exe](Anti-antipaste.exe)（打开后点右上角 **Download raw file**），双击即用，无需安装 Python 或任何依赖。
 
 ## 使用说明
 
@@ -34,7 +34,7 @@
 
 ```bash
 pip install pynput pyinstaller pillow
-python gen_icon.py        # 可选：重新生成图标
+python gen_icon.py        # 生成图标（icon.ico / icon.png）
 pyinstaller --onefile --windowed --name Anti-antipaste --icon icon.ico --add-data "icon.ico;." --clean main.py
 ```
 
